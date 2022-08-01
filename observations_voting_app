@@ -1,0 +1,4 @@
+When I deleted voting pod, due to replica set it is spooned automatically and no impact on application.
+When I deleted worker pod, due to replica set it is spooned automatically and no impact on application.
+When I deleted db pod, voting data is lost and result page stopped working.
+To make the results app work, i deleted the result pod and when result pod came up, result page started working again
